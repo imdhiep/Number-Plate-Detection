@@ -42,4 +42,7 @@ while True:
                     2, (0, 0, 255), 2)
         cv2.imshow("Result", img)
         cv2.waitKey(500)
-        count
+        count += 1
+
+cap.release()  # Giải phóng video
+cv2.destroyAllWindows()  # Đóng tất cả cửa sổ hiển thị
