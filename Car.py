@@ -12,7 +12,7 @@ minArea = 200
 color = (255, 0, 255)
 
 # Mở video từ tệp
-cap = cv2.VideoCapture("Resources/video12.mp4")
+cap = cv2.VideoCapture("Resource/video12.mp4")
 cap.set(3, frameWidth)  # Đặt chiều rộng của khung hình
 cap.set(4, frameHeight)  # Đặt chiều cao của khung hình
 cap.set(10, 150)  # Đặt độ sáng của khung hình
